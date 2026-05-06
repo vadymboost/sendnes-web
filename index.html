@@ -13,7 +13,7 @@
 <header id="site-header">
   <div class="nav-inner">
     <a href="#" class="brand">
-      <span class="brand-slogan">Splníme vás</span>
+      <span class="brand-slogan">Splníme váš</span>
       <span class="brand-name">SENDNES s.r.o.</span>
     </a>
     <nav class="main-nav">
@@ -40,10 +40,10 @@
   <div class="hero-content">
     <p class="hero-tag">Stavební firma · Rožnov pod Radhoštěm</p>
     <h1 class="hero-title">
-      Splníme<br/>
-      <span class="hero-accent">vaše</span> sny
+      <span class="hero-slogan">Splníme váš</span>
+      <span class="hero-brand"><span class="hero-sen">SEN</span>DNES</span>
     </h1>
-    <p class="hero-sub">Výstavba, rekonstrukce a stavební projekty na míru od A do Z.</p>
+    <p class="hero-sub">Výstavba, rekonstrukce a stavební projekty na míru od A do Z. Realizujeme vaše sny o bydlení i komerční stavby po celém Valašsku.</p>
     <div class="hero-cta">
       <a href="#kontakt" class="btn btn-primary">Kontaktujte nás</a>
       <a href="#projekty" class="btn btn-outline">Naše projekty</a>
@@ -86,57 +86,89 @@
   <div class="container">
     <div class="section-header">
       <span class="section-tag">Realizace</span>
-      <h2 class="section-title">Probíhající projekty</h2>
-      <p class="section-desc">Přehled aktuálně realizovaných staveb a projektů naší firmy.</p>
+      <h2 class="section-title">Naše projekty</h2>
+      <p class="section-desc">Přehled aktuálně realizovaných i dokončených staveb a projektů naší firmy.</p>
     </div>
-    <div class="projects-grid">
+    <div class="slider-wrapper">
+      <button class="slider-arrow slider-prev" id="sliderPrev" aria-label="Předchozí">&#8592;</button>
+      <div class="projects-slider" id="projectsSlider">
  
-      <!-- Project 1 -->
-      <article class="project-card" data-project="1">
-        <div class="project-img" style="background-image:url('https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&q=80')">
-          <div class="project-overlay">
-            <span class="project-status ongoing">Probíhá</span>
+        <article class="project-card">
+          <div class="project-img" style="background-image:url('https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&q=80')">
+            <div class="project-overlay"><span class="project-status ongoing">Probíhá</span></div>
           </div>
-        </div>
-        <div class="project-body">
-          <span class="project-type">Rodinný dům</span>
-          <h3>Rodinná vila – Rožnov pod Radhoštěm</h3>
-          <p>Novostavba moderního rodinného domu o ploše 220 m² s terasou a garáží. Projekt zahrnuje kompletní stavbu na klíč včetně interiérových úprav.</p>
-          <button class="project-detail-btn" onclick="openModal(1)">Více informací →</button>
-        </div>
-      </article>
- 
-      <!-- Project 2 -->
-      <article class="project-card" data-project="2">
-        <div class="project-img" style="background-image:url('https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=800&q=80')">
-          <div class="project-overlay">
-            <span class="project-status ongoing">Probíhá</span>
+          <div class="project-body">
+            <span class="project-type">Rodinný dům</span>
+            <h3>Rodinná vila – Rožnov pod Radhoštěm</h3>
+            <p>Novostavba moderního rodinného domu o ploše 220 m² s terasou a garáží. Kompletní stavba na klíč včetně interiérových úprav.</p>
+            <button class="project-detail-btn" onclick="openModal(1)">Více informací →</button>
           </div>
-        </div>
-        <div class="project-body">
-          <span class="project-type">Komerční stavba</span>
-          <h3>Administrativní budova – Valašské Meziříčí</h3>
-          <p>Výstavba třípodlažní administrativní budovy pro lokální firmu. Celková plocha 850 m², moderní otevřené kancelářské prostory s energeticky úsporným řešením.</p>
-          <button class="project-detail-btn" onclick="openModal(2)">Více informací →</button>
-        </div>
-      </article>
+        </article>
  
-      <!-- Project 3 -->
-      <article class="project-card" data-project="3">
-        <div class="project-img" style="background-image:url('https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80')">
-          <div class="project-overlay">
-            <span class="project-status planning">Příprava</span>
+        <article class="project-card">
+          <div class="project-img" style="background-image:url('https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=800&q=80')">
+            <div class="project-overlay"><span class="project-status ongoing">Probíhá</span></div>
           </div>
-        </div>
-        <div class="project-body">
-          <span class="project-type">Rekonstrukce</span>
-          <h3>Rekonstrukce bytového domu – Frenštát</h3>
-          <p>Kompletní rekonstrukce bytového domu z 80. let. Zateplení fasády, výměna oken, modernizace rozvodů a společných prostor.</p>
-          <button class="project-detail-btn" onclick="openModal(3)">Více informací →</button>
-        </div>
-      </article>
+          <div class="project-body">
+            <span class="project-type">Komerční stavba</span>
+            <h3>Administrativní budova – Valašské Meziříčí</h3>
+            <p>Výstavba třípodlažní administrativní budovy 850 m² s moderními kancelářskými prostory a energeticky úsporným řešením.</p>
+            <button class="project-detail-btn" onclick="openModal(2)">Více informací →</button>
+          </div>
+        </article>
  
+        <article class="project-card">
+          <div class="project-img" style="background-image:url('https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80')">
+            <div class="project-overlay"><span class="project-status planning">Příprava</span></div>
+          </div>
+          <div class="project-body">
+            <span class="project-type">Rekonstrukce</span>
+            <h3>Rekonstrukce bytového domu – Frenštát</h3>
+            <p>Kompletní rekonstrukce bytového domu z 80. let. Zateplení fasády, výměna oken, modernizace rozvodů a společných prostor.</p>
+            <button class="project-detail-btn" onclick="openModal(3)">Více informací →</button>
+          </div>
+        </article>
+ 
+        <article class="project-card">
+          <div class="project-img" style="background-image:url('https://images.unsplash.com/photo-1486325212027-8081e485255e?w=800&q=80')">
+            <div class="project-overlay"><span class="project-status done">Dokončeno</span></div>
+          </div>
+          <div class="project-body">
+            <span class="project-type">Průmyslová stavba</span>
+            <h3>Skladová hala – Zubří</h3>
+            <p>Výstavba ocelové skladové haly 1 200 m² pro výrobní firmu. Realizováno v termínu včetně venkovních úprav a parkoviště.</p>
+            <button class="project-detail-btn" onclick="openModal(4)">Více informací →</button>
+          </div>
+        </article>
+ 
+        <article class="project-card">
+          <div class="project-img" style="background-image:url('https://images.unsplash.com/photo-1523217582562-09d0def993a6?w=800&q=80')">
+            <div class="project-overlay"><span class="project-status done">Dokončeno</span></div>
+          </div>
+          <div class="project-body">
+            <span class="project-type">Rekonstrukce</span>
+            <h3>Rekonstrukce RD – Střítež nad Bečvou</h3>
+            <p>Kompletní rekonstrukce staršího rodinného domu – nová střecha, fasáda, okna, koupelna a kuchyň. Dokončeno 2025.</p>
+            <button class="project-detail-btn" onclick="openModal(5)">Více informací →</button>
+          </div>
+        </article>
+ 
+        <article class="project-card">
+          <div class="project-img" style="background-image:url('https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&q=80')">
+            <div class="project-overlay"><span class="project-status done">Dokončeno</span></div>
+          </div>
+          <div class="project-body">
+            <span class="project-type">Bytová výstavba</span>
+            <h3>Bytový dům – Rožnov pod Radhoštěm</h3>
+            <p>Novostavba bytového domu s 12 jednotkami, podzemními garážemi a výtahem. Předáno klientovi v roce 2024.</p>
+            <button class="project-detail-btn" onclick="openModal(6)">Více informací →</button>
+          </div>
+        </article>
+ 
+      </div>
+      <button class="slider-arrow slider-next" id="sliderNext" aria-label="Další">&#8594;</button>
     </div>
+    <div class="slider-dots" id="sliderDots"></div>
   </div>
 </section>
  
@@ -146,8 +178,10 @@
     <div class="about-text">
       <span class="section-tag light">O nás</span>
       <h2 class="section-title light">Kdo jsme</h2>
-      <p>SENDNES s.r.o. je česká stavební firma se sídlem v Rožnově pod Radhoštěm, aktivní od roku 2021. Zaměřujeme se na provádění staveb, rekonstrukcí a stavební projekty od návrhu až po finální dokončení.</p>
-      <p>Každý projekt bereme jako jedinečný – přizpůsobujeme se požadavkům klienta a garantujeme kvalitní provedení, přehlednou komunikaci a dodržení termínů.</p>
+      <p>SENDNES s.r.o. je česká stavební firma se sídlem v Rožnově pod Radhoštěm, zapsaná v obchodním rejstříku od roku 2021. Za dobu naší existence jsme realizovali desítky stavebních projektů různého rozsahu – od rodinných domů a bytových jednotek až po komerční a průmyslové stavby.</p>
+      <p>Naše firma provádí kompletní stavby, jejich změny a odstraňování, zednictví, projektování i pronájem nemovitostí. Každý projekt přistupujeme individuálně – od prvního setkání s klientem, přes přípravu projektu, až po finální předání stavby.</p>
+      <p>Věříme, že stavba domu nebo rekonstrukce je jedním z největších rozhodnutí v životě člověka. Proto klademe důraz na poctivé řemeslo, transparentní komunikaci a dodržování sjednaných termínů a rozpočtů. Pracujeme výhradně s prověřenými dodavateli a kvalitními materiály.</p>
+      <p>Působíme především v regionu Valašska a Moravskoslezského kraje, ale jsme připraveni realizovat projekty i mimo tento region dle dohody s klientem.</p>
       <div class="about-stats">
         <div class="stat"><span class="stat-num">4+</span><span class="stat-label">Roky zkušeností</span></div>
         <div class="stat"><span class="stat-num">30+</span><span class="stat-label">Dokončených projektů</span></div>
@@ -166,7 +200,7 @@
     <div class="cta-box">
       <div class="cta-text">
         <h2>Chcete realizovat svou stavbu, rekonstrukci nebo projekt?</h2>
-        <p>Neváhejte nás kontaktovat. Rádi probereme vaše požadavky a připravíme nezávaznou nabídku přesně na míru.</p>
+        <p>Máte v hlavě představu o svém novém domě, rekonstrukci bytu nebo komerčním projektu? Rádi probereme vaše požadavky, provedeme vás celým procesem a připravíme nezávaznou nabídku přesně na míru. Neváhejte nás kontaktovat – první konzultace je zdarma.</p>
       </div>
       <div class="contact-details">
         <div class="contact-item">
@@ -208,32 +242,40 @@
     <div class="section-header">
       <span class="section-tag">Kariéra</span>
       <h2 class="section-title">Nabídka práce</h2>
-      <p class="section-desc">Hledáme zkušené odborníky, kteří chtějí být součástí rostoucího týmu. Nabízíme férové podmínky, zajímavé projekty a příjemné pracovní prostředí.</p>
+      <p class="section-desc">Hledáme spolehlivé a pečlivé pracovníky, kteří chtějí být součástí našeho týmu. Nabízíme férové ohodnocení, stabilní zázemí a zajímavé projekty.</p>
     </div>
     <div class="jobs-grid">
       <div class="job-card">
         <div class="job-header">
           <span class="job-tag">Plný úvazek</span>
-          <h3>Zedník / Stavební dělník</h3>
+          <h3>Zedník</h3>
         </div>
-        <p>Hledáme zkušeného zedníka pro práce na novostavbách i rekonstrukcích v okolí Rožnova pod Radhoštěm. Praxe min. 2 roky.</p>
+        <p>Hledáme zkušeného zedníka pro práce na novostavbách i rekonstrukcích v okolí Rožnova pod Radhoštěm. Požadujeme min. 2 roky praxe, spolehlivost a ochotu pracovat v terénu.</p>
         <a href="mailto:kariera@sendnes.cz?subject=Přihláška: Zedník" class="btn btn-job">Přihlásit se →</a>
       </div>
       <div class="job-card">
         <div class="job-header">
           <span class="job-tag">Plný úvazek</span>
-          <h3>Stavbyvedoucí</h3>
+          <h3>Stavební dělník</h3>
         </div>
-        <p>Hledáme stavbyvedoucího pro koordinaci stavebních projektů. Požadujeme VŠ/VOŠ vzdělání ve stavebnictví a praxi v řízení staveb.</p>
-        <a href="mailto:kariera@sendnes.cz?subject=Přihláška: Stavbyvedoucí" class="btn btn-job">Přihlásit se →</a>
+        <p>Přijmeme stavebního dělníka se zkušenostmi v oboru. Náplň práce zahrnuje hrubou stavbu, pomocné stavební práce a spolupráci s ostatními řemeslníky na projektu.</p>
+        <a href="mailto:kariera@sendnes.cz?subject=Přihláška: Stavební dělník" class="btn btn-job">Přihlásit se →</a>
       </div>
       <div class="job-card">
         <div class="job-header">
           <span class="job-tag">Brigáda / Plný úvazek</span>
           <h3>Pomocný stavební dělník</h3>
         </div>
-        <p>Přijmeme pečlivé a spolehlivé pracovníky bez nutnosti předchozí praxe. Zaškolení zajistíme. Vhodné i pro absolventy.</p>
+        <p>Přijmeme pečlivé a spolehlivé pracovníky bez nutnosti předchozí praxe. Zaškolení zajistíme na místě. Vhodné i pro absolventy hledající první pracovní zkušenost.</p>
         <a href="mailto:kariera@sendnes.cz?subject=Přihláška: Pomocný dělník" class="btn btn-job">Přihlásit se →</a>
+      </div>
+      <div class="job-card">
+        <div class="job-header">
+          <span class="job-tag">Plný úvazek / Brigáda</span>
+          <h3>Uklízeč / Uklízečka</h3>
+        </div>
+        <p>Hledáme pečlivého uklízeče nebo uklízečku pro úklid staveniště, kancelářských prostor a dokončených objektů. Požadujeme spolehlivost, dochvilnost a fyzickou zdatnost.</p>
+        <a href="mailto:kariera@sendnes.cz?subject=Přihláška: Uklízeč/Uklízečka" class="btn btn-job">Přihlásit se →</a>
       </div>
     </div>
     <p class="jobs-note">Nenašli jste vhodnou pozici? Zašlete nám volnou přihlášku na <a href="mailto:kariera@sendnes.cz">kariera@sendnes.cz</a></p>
@@ -244,7 +286,7 @@
 <footer class="footer">
   <div class="footer-inner">
     <div class="footer-brand">
-      <span class="footer-slogan">Splníme vás</span>
+      <span class="footer-slogan">Splníme váš</span>
       <span class="footer-name">SENDNES s.r.o.</span>
     </div>
     <div class="footer-links">
