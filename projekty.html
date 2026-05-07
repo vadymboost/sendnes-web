@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Projekty – SENDNES s.r.o.</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="projekty.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+<!-- ─── NAV ─────────────────────────────────────── -->
+<header id="site-header">
+  <div class="nav-inner">
+    <a href="index.html" class="brand">
+      <span class="brand-name">SENDNES s.r.o.</span>
+    </a>
+    <nav class="main-nav">
+      <a href="index.html#projekty">Projekty</a>
+      <a href="index.html#o-nas">O nás</a>
+      <a href="index.html#nabidka-prace">Kariéra</a>
+      <a href="index.html#kontakt">Kontakt</a>
+    </nav>
+    <button class="burger" id="burger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <div class="mobile-menu" id="mobile-menu">
+    <a href="index.html#projekty" class="mobile-link">Projekty</a>
+    <a href="index.html#o-nas" class="mobile-link">O nás</a>
+    <a href="index.html#nabidka-prace" class="mobile-link">Kariéra</a>
+    <a href="index.html#kontakt" class="mobile-link">Kontakt</a>
+  </div>
+</header>
+
+<!-- ─── PAGE HERO ────────────────────────────────── -->
+<section class="page-hero">
+  <div class="page-hero-bg"></div>
+  <div class="page-hero-content container">
+    <a href="index.html" class="back-link">← Zpět na hlavní stránku</a>
+    <h1>Naše projekty</h1>
+    <p>Přehled všech realizovaných, probíhajících a připravovaných staveb firmy SENDNES s.r.o.</p>
+  </div>
+</section>
+
+<!-- ─── FILTER BAR ───────────────────────────────── -->
+<div class="filter-bar">
+  <div class="container">
+    <button class="filter-btn active" data-filter="all">Vše</button>
+    <button class="filter-btn" data-filter="ongoing">Probíhá</button>
+    <button class="filter-btn" data-filter="planning">Příprava</button>
+    <button class="filter-btn" data-filter="done">Dokončeno</button>
+  </div>
+</div>
+
+<!-- ─── ALL PROJECTS ─────────────────────────────── -->
+<main class="projects-page container">
+
+  <!-- PROJECT 1 -->
+  <article class="pcard" id="projekt-1" data-status="ongoing">
+    <div class="pcard-img-col">
+      <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=900&q=80" alt="Rodinná vila Rožnov"/>
+      <span class="pcard-status ongoing">Probíhá</span>
+    </div>
+    <div class="pcard-info">
+      <span class="pcard-type">Rodinný dům</span>
+      <h2>Rodinná vila – Rožnov pod Radhoštěm</h2>
+      <p class="pcard-lead">Novostavba moderního rodinného domu o zastavěné ploše 220 m² v klidné lokalitě Rožnova pod Radhoštěm.</p>
+      <p>Projekt zahrnuje kompletní výstavbu na klíč – od základů po finální dokončovací práce včetně interiérových úprav. Dům je navržen v moderním minimalistickém stylu s důrazem na energetickou úspornost třídy A. Součástí jsou velká prosklená okna, prostorná terasa o ploše 45 m², garáž pro dva vozy a zahradní úpravy s oplocením.</p>
+      <p>Výstavba probíhá dle harmonogramu, na projektu spolupracuje tým zkušených řemeslníků a dodavatelů. Veškeré použité materiály splňují přísné české i evropské stavební normy.</p>
+      <div class="pcard-meta">
+        <div class="pcard-meta-item"><span class="meta-label">Typ stavby</span><span class="meta-value">Novostavba RD</span></div>
+        <div class="pcard-meta-item"><span class="meta-label">Plocha</span><span class="meta-value">220 m²</span></div>
+        <div class="pcard-meta-item"><span class="meta-label">Zahájení</span><span class="meta-value">Leden 2026</span></div>
+        <div class="pcard-meta-item"><span class="meta-label">Dokončení</span><span class="meta-value">Léto 2026</span></div>
+        <div class="pcard-meta-item"><span class="meta-label">Lokalita</span><span class="meta-value">Rožnov pod Radhoštěm</span></div>
+        <div class="pcard-meta-item"><span class="meta-label">Energetická třída</span><span class="meta-value">A</span></div>
+      </div>
+      <a href="index.html#kontakt" class="pcard-cta">Chci podobný projekt →</a>
+    </div>
+  </article>
+
+  <!-- PROJECT 2 -->
+  <article class="pcard" id="projekt-2" data-status="ongoing">
+    <div class="pcard-img-col">
+      <img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=900&q=80" alt="Administrativní budova Valašské Meziříčí"/>
+      <span class="pcard-status ongoing">Probíhá</span>
+    </div>
+    <div class="pcard-info">
+      <span class="pcard-type">Komerční stavba</span>
+      <h2>Administrativní budova – Valašské Meziříčí</h2>
+      <p class="pcard-lead">Výstavba třípodlažní administrativní budovy pro lokální podnikatelský subjekt ve Valašském Meziříčí.</p>
+      <p>Celková užitná plocha budovy je 850 m². Projekt obsahuje moderní otevřené kancelářské prostory, zasedací místnosti různých velikostí, recepci, plně vybavené zázemí pro zaměstnance a podzemní parkoviště.</p>
+      <p>Budova splňuje přísné energetické standardy – je vybavena systémem řízeného větrání s rekuperací, tepelnými čerpadly a fotovoltaickými panely o výkonu 40 kWp instalovanými na střeše. Projekt byl zahájen v únoru 2026, předání je plánováno na podzim 2026.</p>
+      <div class="pcard-meta">
+        <div class="pcard-meta-item"><span class="meta-label">Typ stavby</span><span class="meta-value">Komerční budova</span></div>
+        <div class="pcard-meta-item"><span class="meta-label">Plocha</span><span class="meta-value">850 m²</span></div>
+        <div class="pcard-meta-item"><span class="meta-label">Podlaží</span><span class="meta-value">3 + 1PP</span></div>
+        <div class="pcard-meta-item"><span class="meta-label">Zahájení</span><span class="meta-value">Únor 2026</span></div>
+        <div class="pcard-meta-item"><span class="meta-label">Dokončení</span><span class="meta-value">Podzim 2026</span></div>
+        <div class="pcard-meta-item"><span class="meta-label">Lokalita</span><span class="meta-value">Valašské Meziříčí</span></div>
+      </div>
+      <a href="index.html#kontakt" class="pcard-cta">Chci podobný projekt →</a>
+    </div>
+  </article>
+
+  <!-- PROJECT 3 -->
+  <article class="pcard" id="projekt-3" data-status="planning">
+    <div class="pcard-img-col">
+      <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=900&q=80" alt="Rekonstrukce bytového domu Frenštát"/>
+      <span class="pcard-status planning">Příprava</span>
+    </div>
+    <div class="pcard-info">
+      <span class="pcard-type">Rekonstrukce</span>
+      <h2>Rekonstrukce bytového domu – Frenštát pod Radhoštěm</h2>
+      <p class="pcard-lead">Komplexní rekonstrukce panelového bytového domu z 80. let ve Frenštátě pod Radhoštěm.</p>
+      <p>Práce zahrnují kompletní zateplení fasády s kontaktním zateplovacím systémem (minerální vlna 200 mm), výměnu všech oken a balkonových dveří za trojskla, modernizaci rozvodů elektřiny, vody a topení v celé budově.</p>
+      <p>Dále je naplánována kompletní rekonstrukce společných prostor – chodeb, schodiště a vstupního vestibulu, a výměna výtahu za moderní bezbariérový. Projekt je aktuálně ve fázi přípravy projektové dokumentace a zajišťování stavebního povolení. Zahájení prací je naplánováno na léto 2026.</p>
+      <div class="pcard-meta">
+        <div class="pcard-meta-item"><span class="meta-label">Typ stavby</span><span class="meta-value">Rekonstrukce BD</span></div>
+        <div class="pcard-meta-item"><span class="meta-label">Počet bytů</span><span class="meta-value">24</span></div>
+        <div class="pcard-meta-item"><span class="meta-label">Zahájení</span><span class="meta-value">Léto 2026</span></div>
+        <div class="pcard-meta-item"><span class="meta-label">Dokončení</span><span class="meta-value">2027</span></div>
+        <div class="pcard-meta-item"><span class="meta-label">Lokalita</span><span class="meta-value">Frenštát pod Radhoštěm</span></div>
+        <div class="pcard-meta-item"><span class="meta-label">Zateplení</span><span class="meta-value">200 mm minerální vlna</span></div>
+      </div>
+      <a href="index.html#kontakt" class="pcard-cta">Chci podobný projekt →</a>
+    </div>
+  </article>
+
+  <!-- PROJECT 4 -->
+  <article class="pcard" id="projekt-4" data-status="done">
+    <div class="pcard-img-col">
+      <img src="https://images.unsplash.com/photo-1486325212027-8081e485255e?w=900&q=80" alt="Skladová hala Zubří"/>
+      <span class="pcard-status done">Dokončeno</span>
+    </div>
+    <div class="pcard-info">
+      <span class="pcard-type">Průmyslová stavba</span>
+      <h2>Skladová hala – Zubří</h2>
+      <p class="pcard-lead">Výstavba ocelové skladové haly o ploše 1 200 m² pro výrobní firmu v průmyslové zóně Zubří.</p>
+      <p>Hala je navržena jako jednolodní ocelová konstrukce s výškou hřebene 8 m, vybavená čtyřmi nakládacími rampami, automatickými sekčními vraty a samostatným sociálním zázemím pro zaměstnance. Podlaha je provedena jako armovaná průmyslová beton s epoxidovým nátěrem odolným vůči chemikáliím.</p>
+      <p>Součástí projektu byly i kompletní venkovní úpravy – zpevněné plochy pro pohyb těžké techniky, parkoviště pro 30 vozidel a oplocení areálu. Projekt byl dokončen a předán klientovi v termínu v roce 2025.</p>
+      <div class="pcard-meta">
+        <div class="pcard-meta-item"><span class="meta-label">Typ stavby</span><span class="meta-value">Skladová hala</span></div>
+        <div class="pcard-meta-item"><span class="meta-label">Plocha</span><span class="meta-value">1 200 m²</span></div>
+        <div class="pcard-meta-item"><span class="meta-label">Výška</span><span class="meta-value">8 m</span></div>
+        <div class="pcard-meta-item"><span class="meta-label">Parkoviště</span><span class="meta-value">30 míst</span></div>
+        <div class="pcard-meta-item"><span class="meta-label">Lokalita</span><span class="meta-value">Zubří</span></div>
+        <div class="pcard-meta-item"><span class="meta-label">Dokončeno</span><span class="meta-value">2025</span></div>
+      </div>
+      <a href="index.html#kontakt" class="pcard-cta">Chci podobný projekt →</a>
+    </div>
+  </article>
+
+  <!-- PROJECT 5 -->
+  <article class="pcard" id="projekt-5" data-status="done">
+    <div class="pcard-img-col">
+      <img src="https://images.unsplash.com/photo-1523217582562-09d0def993a6?w=900&q=80" alt="Rekonstrukce RD Střítež"/>
+      <span class="pcard-status done">Dokončeno</span>
+    </div>
+    <div class="pcard-info">
+      <span class="pcard-type">Rekonstrukce</span>
+      <h2>Rekonstrukce rodinného domu – Střítež nad Bečvou</h2>
+      <p class="pcard-lead">Kompletní rekonstrukce rodinného domu z 80. let ve Stříteži nad Bečvou, realizovaná bez přerušení provozu domácnosti.</p>
+      <p>Práce zahrnovaly novou střechu s tepelnou izolací a pojistnou hydroizolací, kompletní zateplení a novou fasádu, výměnu všech oken a vstupních dveří za moderní trojskla. V interiéru bylo provedeno přepojení elektroinstalace na nové jisticí prvky, vyměněna veškerá potrubí, provedena nová koupelna s podlahovým topením a moderní kuchyňský kout.</p>
+      <p>Klient ocenil zejména preciznost provedení a dodržení sjednaného rozpočtu. Práce dokončeny na jaře 2025.</p>
+      <div class="pcard-meta">
+        <div class="pcard-meta-item"><span class="meta-label">Typ stavby</span><span class="meta-value">Rekonstrukce RD</span></div>
+        <div class="pcard-meta-item"><span class="meta-label">Plocha</span><span class="meta-value">145 m²</span></div>
+        <div class="pcard-meta-item"><span class="meta-label">Lokalita</span><span class="meta-value">Střítež nad Bečvou</span></div>
+        <div class="pcard-meta-item"><span class="meta-label">Trvání</span><span class="meta-value">6 měsíců</span></div>
+        <div class="pcard-meta-item"><span class="meta-label">Dokončeno</span><span class="meta-value">Jaro 2025</span></div>
+        <div class="pcard-meta-item"><span class="meta-label">Hodnocení klienta</span><span class="meta-value">★★★★★</span></div>
+      </div>
+      <a href="index.html#kontakt" class="pcard-cta">Chci podobný projekt →</a>
+    </div>
+  </article>
+
+  <!-- PROJECT 6 -->
+  <article class="pcard" id="projekt-6" data-status="done">
+    <div class="pcard-img-col">
+      <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=900&q=80" alt="Bytový dům Rožnov"/>
+      <span class="pcard-status done">Dokončeno</span>
+    </div>
+    <div class="pcard-info">
+      <span class="pcard-type">Bytová výstavba</span>
+      <h2>Bytový dům – Rožnov pod Radhoštěm</h2>
+      <p class="pcard-lead">Novostavba čtyřpodlažního bytového domu s 12 bytovými jednotkami různých dispozic v Rožnově pod Radhoštěm.</p>
+      <p>Bytový dům nabízí kombinaci dispozic od 1+kk až po 4+kk. Každý byt disponuje vlastním balkonem nebo terasou v přízemí, sklepní kójí a parkovacím místem. Budova je vybavena osobním výtahem, podzemním garážovým stáním pro 14 vozidel a společnými prostory pro jízdní kola a kočárky.</p>
+      <p>Stavba splňuje nízkoenergetický standard, vytápění zajišťují tepelná čerpadla vzduch-voda se zásobníkem teplé vody. Všechny bytové jednotky byly prodány ještě před dokončením stavby. Projekt předán klientovi v roce 2024.</p>
+      <div class="pcard-meta">
+        <div class="pcard-meta-item"><span class="meta-label">Typ stavby</span><span class="meta-value">Bytový dům</span></div>
+        <div class="pcard-meta-item"><span class="meta-label">Počet bytů</span><span class="meta-value">12</span></div>
+        <div class="pcard-meta-item"><span class="meta-label">Podlaží</span><span class="meta-value">4 + 1PP</span></div>
+        <div class="pcard-meta-item"><span class="meta-label">Garáže</span><span class="meta-value">14 míst</span></div>
+        <div class="pcard-meta-item"><span class="meta-label">Lokalita</span><span class="meta-value">Rožnov pod Radhoštěm</span></div>
+        <div class="pcard-meta-item"><span class="meta-label">Dokončeno</span><span class="meta-value">2024</span></div>
+      </div>
+      <a href="index.html#kontakt" class="pcard-cta">Chci podobný projekt →</a>
+    </div>
+  </article>
+
+</main>
+
+<!-- ─── FOOTER ────────────────────────────────────── -->
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <span class="footer-name">SENDNES s.r.o.</span>
+    </div>
+    <div class="footer-links">
+      <a href="index.html#projekty">Projekty</a>
+      <a href="index.html#o-nas">O nás</a>
+      <a href="index.html#nabidka-prace">Kariéra</a>
+      <a href="index.html#kontakt">Kontakt</a>
+    </div>
+    <div class="footer-legal">
+      <p>© 2026 SENDNES s.r.o. · IČO 10667067 · Kulturní 1751, Rožnov pod Radhoštěm</p>
+    </div>
+  </div>
+</footer>
+
+<script>
+/* ─── SCROLL HEADER ─── */
+const header = document.getElementById('site-header');
+window.addEventListener('scroll', () => {
+  header.classList.toggle('scrolled', window.scrollY > 30);
+});
+
+/* ─── BURGER ─── */
+const burger = document.getElementById('burger');
+const mobileMenu = document.getElementById('mobile-menu');
+burger.addEventListener('click', () => mobileMenu.classList.toggle('open'));
+document.querySelectorAll('.mobile-link').forEach(l => l.addEventListener('click', () => mobileMenu.classList.remove('open')));
+
+/* ─── FILTER ─── */
+const filterBtns = document.querySelectorAll('.filter-btn');
+const pcards = document.querySelectorAll('.pcard');
+
+filterBtns.forEach(btn => {
+  btn.addEventListener('click', () => {
+    filterBtns.forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    const f = btn.dataset.filter;
+    pcards.forEach(card => {
+      const show = f === 'all' || card.dataset.status === f;
+      card.style.display = show ? '' : 'none';
+    });
+  });
+});
+
+/* ─── HIGHLIGHT FROM HASH ─── */
+window.addEventListener('load', () => {
+  const hash = window.location.hash;
+  if (hash) {
+    const target = document.querySelector(hash);
+    if (target) {
+      setTimeout(() => {
+        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        target.classList.add('highlighted');
+        setTimeout(() => target.classList.remove('highlighted'), 2000);
+      }, 200);
+    }
+  }
+});
+</script>
+</body>
+</html>

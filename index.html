@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SENDNES s.r.o. – Stavební firma Rožnov pod Radhoštěm</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+<!-- ─── NAV ─────────────────────────────────────── -->
+<header id="site-header">
+  <div class="nav-inner">
+    <a href="#" class="brand">
+      <span class="brand-name">SENDNES s.r.o.</span>
+    </a>
+    <nav class="main-nav">
+      <a href="#projekty">Projekty</a>
+      <a href="#o-nas">O nás</a>
+      <a href="#nabidka-prace">Kariéra</a>
+      <a href="#kontakt">Kontakt</a>
+    </nav>
+    <button class="burger" id="burger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <div class="mobile-menu" id="mobile-menu">
+    <a href="#projekty" class="mobile-link">Projekty</a>
+    <a href="#o-nas" class="mobile-link">O nás</a>
+    <a href="#nabidka-prace" class="mobile-link">Kariéra</a>
+    <a href="#kontakt" class="mobile-link">Kontakt</a>
+  </div>
+</header>
+
+<!-- ─── HERO ─────────────────────────────────────── -->
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-content">
+    <p class="hero-tag">Stavební firma · Rožnov pod Radhoštěm</p>
+    <h1 class="hero-title">
+      <span class="hero-slogan">Splníme váš</span>
+      <span class="hero-brand"><span class="hero-sen">SEN</span>DNES</span>
+    </h1>
+    <p class="hero-sub">Výstavba, rekonstrukce a stavební projekty na míru od A do Z. Realizujeme vaše sny o bydlení i komerční stavby po celém Valašsku.</p>
+    <div class="hero-cta">
+      <a href="#kontakt" class="btn btn-primary">Kontaktujte nás</a>
+      <a href="#projekty" class="btn btn-outline">Naše projekty</a>
+    </div>
+  </div>
+  <div class="hero-scroll">
+    <span>Scrollovat</span>
+    <div class="scroll-line"></div>
+  </div>
+</section>
+
+<!-- ─── SERVICES STRIP ────────────────────────────── -->
+<section class="services-strip">
+  <div class="strip-inner">
+    <div class="strip-item">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+      <span>Výstavba domů</span>
+    </div>
+    <div class="strip-item">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8m-4-4v4"/></svg>
+      <span>Rekonstrukce</span>
+    </div>
+    <div class="strip-item">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+      <span>Projektování</span>
+    </div>
+    <div class="strip-item">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg>
+      <span>Pronájem nemovitostí</span>
+    </div>
+    <div class="strip-item">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+      <span>Zednictví</span>
+    </div>
+  </div>
+</section>
+
+<!-- ─── PROJECTS ──────────────────────────────────── -->
+<section class="section" id="projekty">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">Realizace</span>
+      <h2 class="section-title">Naše projekty</h2>
+      <p class="section-desc">Přehled aktuálně realizovaných i dokončených staveb a projektů naší firmy.</p>
+    </div>
+    <div class="slider-wrapper">
+      <button class="slider-arrow slider-prev" id="sliderPrev" aria-label="Předchozí">&#8592;</button>
+      <div class="projects-slider" id="projectsSlider">
+
+        <article class="project-card">
+          <div class="project-img" style="background-image:url('https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&q=80')">
+            <div class="project-overlay"><span class="project-status ongoing">Probíhá</span></div>
+          </div>
+          <div class="project-body">
+            <span class="project-type">Rodinný dům</span>
+            <h3>Rodinná vila – Rožnov pod Radhoštěm</h3>
+            <p>Novostavba moderního rodinného domu o ploše 220 m² s terasou a garáží. Kompletní stavba na klíč včetně interiérových úprav.</p>
+            <button class="project-info-btn" onclick="openMini(1, this)">Více informací ↓</button>
+            <div class="mini-popup" id="mini-1">
+              <div class="mini-row"><span>Plocha</span><strong>220 m²</strong></div>
+              <div class="mini-row"><span>Typ</span><strong>Novostavba RD</strong></div>
+              <div class="mini-row"><span>Zahájení</span><strong>Leden 2026</strong></div>
+              <div class="mini-row"><span>Dokončení</span><strong>Léto 2026</strong></div>
+              <div class="mini-row"><span>Lokalita</span><strong>Rožnov pod R.</strong></div>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-img" style="background-image:url('https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=800&q=80')">
+            <div class="project-overlay"><span class="project-status ongoing">Probíhá</span></div>
+          </div>
+          <div class="project-body">
+            <span class="project-type">Komerční stavba</span>
+            <h3>Administrativní budova – Valašské Meziříčí</h3>
+            <p>Výstavba třípodlažní administrativní budovy 850 m² s moderními kancelářskými prostory a energeticky úsporným řešením.</p>
+            <button class="project-info-btn" onclick="openMini(2, this)">Více informací ↓</button>
+            <div class="mini-popup" id="mini-2">
+              <div class="mini-row"><span>Plocha</span><strong>850 m²</strong></div>
+              <div class="mini-row"><span>Podlaží</span><strong>3 + 1PP</strong></div>
+              <div class="mini-row"><span>Zahájení</span><strong>Únor 2026</strong></div>
+              <div class="mini-row"><span>Dokončení</span><strong>Podzim 2026</strong></div>
+              <div class="mini-row"><span>Lokalita</span><strong>Valašské Meziříčí</strong></div>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-img" style="background-image:url('https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80')">
+            <div class="project-overlay"><span class="project-status planning">Příprava</span></div>
+          </div>
+          <div class="project-body">
+            <span class="project-type">Rekonstrukce</span>
+            <h3>Rekonstrukce bytového domu – Frenštát</h3>
+            <p>Kompletní rekonstrukce bytového domu z 80. let. Zateplení fasády, výměna oken, modernizace rozvodů a společných prostor.</p>
+            <button class="project-info-btn" onclick="openMini(3, this)">Více informací ↓</button>
+            <div class="mini-popup" id="mini-3">
+              <div class="mini-row"><span>Počet bytů</span><strong>24</strong></div>
+              <div class="mini-row"><span>Typ</span><strong>Rekonstrukce BD</strong></div>
+              <div class="mini-row"><span>Zahájení</span><strong>Léto 2026</strong></div>
+              <div class="mini-row"><span>Dokončení</span><strong>2027</strong></div>
+              <div class="mini-row"><span>Lokalita</span><strong>Frenštát pod R.</strong></div>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-img" style="background-image:url('https://images.unsplash.com/photo-1486325212027-8081e485255e?w=800&q=80')">
+            <div class="project-overlay"><span class="project-status done">Dokončeno</span></div>
+          </div>
+          <div class="project-body">
+            <span class="project-type">Průmyslová stavba</span>
+            <h3>Skladová hala – Zubří</h3>
+            <p>Výstavba ocelové skladové haly 1 200 m² pro výrobní firmu. Realizováno v termínu včetně venkovních úprav a parkoviště.</p>
+            <button class="project-info-btn" onclick="openMini(4, this)">Více informací ↓</button>
+            <div class="mini-popup" id="mini-4">
+              <div class="mini-row"><span>Plocha</span><strong>1 200 m²</strong></div>
+              <div class="mini-row"><span>Výška</span><strong>8 m</strong></div>
+              <div class="mini-row"><span>Parkoviště</span><strong>30 míst</strong></div>
+              <div class="mini-row"><span>Dokončeno</span><strong>2025</strong></div>
+              <div class="mini-row"><span>Lokalita</span><strong>Zubří</strong></div>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-img" style="background-image:url('https://images.unsplash.com/photo-1523217582562-09d0def993a6?w=800&q=80')">
+            <div class="project-overlay"><span class="project-status done">Dokončeno</span></div>
+          </div>
+          <div class="project-body">
+            <span class="project-type">Rekonstrukce</span>
+            <h3>Rekonstrukce RD – Střítež nad Bečvou</h3>
+            <p>Kompletní rekonstrukce staršího rodinného domu – nová střecha, fasáda, okna, koupelna a kuchyň. Dokončeno 2025.</p>
+            <button class="project-info-btn" onclick="openMini(5, this)">Více informací ↓</button>
+            <div class="mini-popup" id="mini-5">
+              <div class="mini-row"><span>Plocha</span><strong>145 m²</strong></div>
+              <div class="mini-row"><span>Typ</span><strong>Rekonstrukce RD</strong></div>
+              <div class="mini-row"><span>Trvání</span><strong>6 měsíců</strong></div>
+              <div class="mini-row"><span>Dokončeno</span><strong>Jaro 2025</strong></div>
+              <div class="mini-row"><span>Lokalita</span><strong>Střítež n. B.</strong></div>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-img" style="background-image:url('https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&q=80')">
+            <div class="project-overlay"><span class="project-status done">Dokončeno</span></div>
+          </div>
+          <div class="project-body">
+            <span class="project-type">Bytová výstavba</span>
+            <h3>Bytový dům – Rožnov pod Radhoštěm</h3>
+            <p>Novostavba bytového domu s 12 jednotkami, podzemními garážemi a výtahem. Předáno klientovi v roce 2024.</p>
+            <button class="project-info-btn" onclick="openMini(6, this)">Více informací ↓</button>
+            <div class="mini-popup" id="mini-6">
+              <div class="mini-row"><span>Počet bytů</span><strong>12</strong></div>
+              <div class="mini-row"><span>Podlaží</span><strong>4 + 1PP</strong></div>
+              <div class="mini-row"><span>Garáže</span><strong>14 míst</strong></div>
+              <div class="mini-row"><span>Dokončeno</span><strong>2024</strong></div>
+              <div class="mini-row"><span>Lokalita</span><strong>Rožnov pod R.</strong></div>
+            </div>
+          </div>
+        </article>
+
+      </div>
+      <button class="slider-arrow slider-next" id="sliderNext" aria-label="Další">&#8594;</button>
+    </div>
+    <div class="slider-dots" id="sliderDots"></div>
+    <div class="projects-bottom">
+      <div class="projects-cta-box">
+        <div class="projects-cta-text">
+          <strong>Máte zájem o realizaci?</strong>
+          <span>Kontaktujte nás a připravíme nabídku na míru.</span>
+        </div>
+        <a href="#kontakt" class="btn-cta-contact">Kontaktujte nás →</a>
+      </div>
+      <a href="projekty.html" class="btn-all-projects">Podrobné informace o všech projektech →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ─── ABOUT ──────────────────────────────────────── -->
+<section class="section section-dark" id="o-nas">
+  <div class="container about-grid">
+    <div class="about-text">
+      <span class="section-tag light">O nás</span>
+      <h2 class="section-title light">Kdo jsme</h2>
+      <p>SENDNES s.r.o. je česká stavební firma se sídlem v Rožnově pod Radhoštěm, zapsaná v obchodním rejstříku od roku 2021. Za dobu naší existence jsme realizovali desítky stavebních projektů různého rozsahu – od rodinných domů a bytových jednotek až po komerční a průmyslové stavby.</p>
+      <p>Naše firma provádí kompletní stavby, jejich změny a odstraňování, zednictví, projektování i pronájem nemovitostí. Každý projekt přistupujeme individuálně – od prvního setkání s klientem, přes přípravu projektu, až po finální předání stavby.</p>
+      <p>Věříme, že stavba domu nebo rekonstrukce je jedním z největších rozhodnutí v životě člověka. Proto klademe důraz na poctivé řemeslo, transparentní komunikaci a dodržování sjednaných termínů a rozpočtů. Pracujeme výhradně s prověřenými dodavateli a kvalitními materiály.</p>
+      <p>Působíme především v regionu Valašska a Moravskoslezského kraje, ale jsme připraveni realizovat projekty i mimo tento region dle dohody s klientem.</p>
+      <div class="about-stats">
+        <div class="stat"><span class="stat-num">4+</span><span class="stat-label">Roky zkušeností</span></div>
+        <div class="stat"><span class="stat-num">30+</span><span class="stat-label">Dokončených projektů</span></div>
+        <div class="stat"><span class="stat-num">100%</span><span class="stat-label">Spokojených klientů</span></div>
+      </div>
+    </div>
+    <div class="about-img">
+      <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=700&q=80" alt="Stavební práce SENDNES"/>
+    </div>
+  </div>
+</section>
+
+<!-- ─── CONTACT CTA ────────────────────────────────── -->
+<section class="cta-section" id="kontakt">
+  <div class="container">
+    <div class="cta-box">
+      <div class="cta-text">
+        <h2>Chcete realizovat svou stavbu, rekonstrukci nebo projekt?</h2>
+        <p>Máte v hlavě představu o svém novém domě, rekonstrukci bytu nebo komerčním projektu? Rádi probereme vaše požadavky, provedeme vás celým procesem a připravíme nezávaznou nabídku přesně na míru. Neváhejte nás kontaktovat – první konzultace je zdarma.</p>
+      </div>
+      <div class="contact-details">
+        <div class="contact-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.65 3.35 2 2 0 0 1 3.62 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.6a16 16 0 0 0 6 6l.92-.92a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          <div>
+            <span class="contact-label">Telefon</span>
+            <a href="tel:+420123456789">+420 123 456 789</a>
+          </div>
+        </div>
+        <div class="contact-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          <div>
+            <span class="contact-label">E-mail</span>
+            <a href="mailto:info@sendnes.cz">info@sendnes.cz</a>
+          </div>
+        </div>
+        <div class="contact-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          <div>
+            <span class="contact-label">Adresa</span>
+            <span>Kulturní 1751, 756 61 Rožnov pod Radhoštěm</span>
+          </div>
+        </div>
+        <div class="contact-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/></svg>
+          <div>
+            <span class="contact-label">IČO / DIČ</span>
+            <span>10667067 / CZ10667067</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ─── CAREERS ─────────────────────────────────────── -->
+<section class="section" id="nabidka-prace">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">Kariéra</span>
+      <h2 class="section-title">Nabídka práce</h2>
+      <p class="section-desc">Hledáme spolehlivé a pečlivé pracovníky, kteří chtějí být součástí našeho týmu. Nabízíme férové ohodnocení, stabilní zázemí a zajímavé projekty.</p>
+    </div>
+    <div class="jobs-grid">
+      <div class="job-card">
+        <div class="job-header">
+          <span class="job-tag">Plný úvazek</span>
+          <h3>Zedník</h3>
+        </div>
+        <p>Hledáme zkušeného zedníka pro práce na novostavbách i rekonstrukcích v okolí Rožnova pod Radhoštěm. Požadujeme min. 2 roky praxe, spolehlivost a ochotu pracovat v terénu.</p>
+        <a href="mailto:kariera@sendnes.cz?subject=Přihláška: Zedník" class="btn btn-job">Přihlásit se →</a>
+      </div>
+      <div class="job-card">
+        <div class="job-header">
+          <span class="job-tag">Plný úvazek</span>
+          <h3>Stavební dělník</h3>
+        </div>
+        <p>Přijmeme stavebního dělníka se zkušenostmi v oboru. Náplň práce zahrnuje hrubou stavbu, pomocné stavební práce a spolupráci s ostatními řemeslníky na projektu.</p>
+        <a href="mailto:kariera@sendnes.cz?subject=Přihláška: Stavební dělník" class="btn btn-job">Přihlásit se →</a>
+      </div>
+      <div class="job-card">
+        <div class="job-header">
+          <span class="job-tag">Brigáda / Plný úvazek</span>
+          <h3>Pomocný stavební dělník</h3>
+        </div>
+        <p>Přijmeme pečlivé a spolehlivé pracovníky bez nutnosti předchozí praxe. Zaškolení zajistíme na místě. Vhodné i pro absolventy hledající první pracovní zkušenost.</p>
+        <a href="mailto:kariera@sendnes.cz?subject=Přihláška: Pomocný dělník" class="btn btn-job">Přihlásit se →</a>
+      </div>
+      <div class="job-card">
+        <div class="job-header">
+          <span class="job-tag">Plný úvazek / Brigáda</span>
+          <h3>Uklízeč / Uklízečka</h3>
+        </div>
+        <p>Hledáme pečlivého uklízeče nebo uklízečku pro úklid staveniště, kancelářských prostor a dokončených objektů. Požadujeme spolehlivost, dochvilnost a fyzickou zdatnost.</p>
+        <a href="mailto:kariera@sendnes.cz?subject=Přihláška: Uklízeč/Uklízečka" class="btn btn-job">Přihlásit se →</a>
+      </div>
+    </div>
+    <p class="jobs-note">Nenašli jste vhodnou pozici? Zašlete nám volnou přihlášku na <a href="mailto:kariera@sendnes.cz">kariera@sendnes.cz</a></p>
+  </div>
+</section>
+
+<!-- ─── FOOTER ─────────────────────────────────────── -->
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <span class="footer-name">SENDNES s.r.o.</span>
+    </div>
+    <div class="footer-links">
+      <a href="#projekty">Projekty</a>
+      <a href="#o-nas">O nás</a>
+      <a href="#nabidka-prace">Kariéra</a>
+      <a href="#kontakt">Kontakt</a>
+    </div>
+    <div class="footer-legal">
+      <p>© 2026 SENDNES s.r.o. · IČO 10667067 · Kulturní 1751, Rožnov pod Radhoštěm</p>
+    </div>
+  </div>
+</footer>
+
+<!-- ─── PROJECT MODAL ──────────────────────────────── -->
+<div class="modal-overlay" id="modal-overlay" onclick="closeModal()">
+  <div class="modal" id="modal" onclick="event.stopPropagation()">
+    <button class="modal-close" onclick="closeModal()">✕</button>
+    <div id="modal-content"></div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+  </div>
+</section>
